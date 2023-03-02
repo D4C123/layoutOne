@@ -1,0 +1,39 @@
+header,footer,section{
+    border:5px solid black;
+    height: 200px;
+}
+
+header,footer{
+    clear:both;
+    width:100%;
+}
+
+section{
+    width: 49.3%;
+    float:left;
+}
+
+@media only screen and (max-width:600px){
+    body{
+        background-color: red;
+    }      
+    section{
+        width:100%;
+    }
+ }
+@media (min-width:601px) and (max-width:900px) {
+    body{
+        background-color: blueviolet;
+    }
+    section{
+        width:48.24%;
+    }
+}
+@media (min-width:901px) and (max-width:1920px) {
+    body{
+        background-color: forestgreen;
+    }
+    section{
+        width:48.8%
+    }
+}
